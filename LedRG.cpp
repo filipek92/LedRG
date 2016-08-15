@@ -18,6 +18,7 @@ byte LedRG::status(){
   return ledStatus;
 }
 void LedRG::set(byte state){
+  if(ledStatus==state) return; // If no change, do not reset blinking (by forcing set(bool, bool))
   if(state > 9) state = 0;
   switch(state){
     case LED_OFF:
