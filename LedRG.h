@@ -18,14 +18,10 @@
 #define LED_BL_R 4
 #define LED_BL_G 5
 #define LED_BL_Y 6
-#define LED_BL_RG 6
 
 #define LED_BL_RG 7
 #define LED_BL_GY 8
-#define LED_BL_GRG 8
 #define LED_BL_YR 9
-#define LED_BL_RGR 9
-
 
 #include "Arduino.h"
 #include "stdint.h"
